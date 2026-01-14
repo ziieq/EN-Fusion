@@ -4,7 +4,7 @@ from openai import OpenAI
 class DeepSeek:
     def __init__(self):
         # DeepSeek-V3.2 Tem=0.1  max_token=256
-        self.client = OpenAI(api_key="sk-c565f73af5de43cc8c37aeeb075a2983", base_url="https://api.deepseek.com")
+        self.client = OpenAI(api_key="api_key", base_url="https://api.deepseek.com")
 
     def request(self, api):
 
