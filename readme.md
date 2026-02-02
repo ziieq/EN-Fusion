@@ -1,4 +1,4 @@
-Run ENFusion.py for training and evaluation. This project is a streamlined redeveloped version, designed specifically to support repeated experimental validations.
+Run ENFusion.py for training and evaluation. This project is a streamlined redeveloped version that has been tested and is consistent with the original performance. It is specifically designed to support repeated experimental verification.
 
 The dataset path and hyperparameters in the __main__ area need to be manually modified.
 The parameters such as lr and batch for training need to be modified in ENFusion-open/components/dl/train_test_predict.py and ENFusion-open\components\dl\train_test_predict_flow_level.py.
